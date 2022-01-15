@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Accordeon</title>
+</head>
+<body>
+    <main>
+        <h2>Accordeon</h2>
+        <div style="display: none;">
+            <div class="questions">
+                <div class="perguntas" id="p1">
+                    <h3>O que são Pirulas Vermelhas (redPill)</h3>
+                </div>
+                <div class="respostas oculto">
+                    <p>São equipamentos dedicados a mais de uma ferramenta de formação de computadores</p>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="perguntas" id="p1">
+                    <h3>O que são Pirulas Vermelhas (redPill)</h3>
+                </div>
+                <div id="questionsAccordeon" class="respostas oculto" onclick="colapse()">
+                    <p>São equipamentos dedicados a mais de uma ferramenta de formação de computadores</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="quest">
+                <input class="marcadorQuestion" type="checkbox" name="" id="accord-01">
+                
+                <div class="respostass">
+                    <label class="perguntas" for="accord-01">Question 01</label>
+                    <div class="resp">
+                        
+                            <div class="lip">
+                                <p >Palavras, apenas palavras</p>
+                            </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="/js.js"></script>
+</body>
+</html>

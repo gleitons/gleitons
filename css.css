@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.questions{
+    width: 600px;
+    margin: 0 auto;
+    background-color: blue;
+    
+}
+.perguntas{
+    background-color: red;
+    padding: 0px;
+    color: white;
+    cursor: pointer;
+}
+.perguntas > h3 {
+    margin: 0px;
+}
+.respostas {
+    padding: 10px;
+    color: white;
+}
+.marcadorQuestion {
+    display: none;
+}
+.quest {
+    background-color: yellow;
+    width: 600px;
+    margin: 0 auto;
+}
+.oculto {
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.respostass .resp {
+    display: none;
+    animation: desce 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+input:checked + .respostass .resp {
+    display: block;
+    
+}
+.lip {
+    background-color: blue;
+    color: white;
+}
