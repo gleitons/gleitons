@@ -1,5 +1,5 @@
 ### Hi there 👋
-For acces this site, https://gleitons.netlify.app
+For acces this site, https://gleitons.github.io/sou-tim/index.html
 
 <!--
 **gleitons/gleitons** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
